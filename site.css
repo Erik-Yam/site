@@ -1,0 +1,38 @@
+body{
+  background-image:
+url('https://emotioncard.com.br/wp-content/uploads/2019/04/plano-de-fundo-preto.jpg');
+  background-size: 50hv;
+  font-family: Arial;  
+  height: 200vh;
+  
+}
+.menu{
+  background-color: black
+}
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style:none;
+}
+
+a {
+  color: white;
+  text-decoration:none;
+  
+}
+
+a:hover{
+  text-decoration:underline;
+}
+.site-subtitle,
+.site-title{
+  color: white;
+  text-align: center;
+}
+
+.site-subtitle{
+  font-style: italic;
+}
